@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2732
+D EPROM 32 KiBit, [Obsolete 2000-11]
+K EPROM 32KiBit
+F https://downloads.reactivemicro.com/Electronics/ROM/2732%20EPROM.pdf
+$ENDCMP
+#
+$CMP 27C32
+D OTP EPROM 32 KiBit, [Obsolete 2004-01]
+K OTP EPROM 32KiBit
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11107M.pdf
+$ENDCMP
+#
+#End Doc Library

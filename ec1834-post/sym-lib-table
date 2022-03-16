@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ec1834-post-lib)(type Legacy)(uri ${KIPRJMOD}/ec1834-post-lib.lib)(options "")(descr ""))
+)

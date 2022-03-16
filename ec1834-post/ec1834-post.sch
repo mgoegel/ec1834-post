@@ -1,0 +1,490 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx_IEEE:7432 U?
+U 1 1 62291BEC
+P 2800 1750
+F 0 "U?" H 2800 2166 50  0000 C CNN
+F 1 "7432" H 2800 2075 50  0000 C CNN
+F 2 "" H 2800 1750 50  0001 C CNN
+F 3 "" H 2800 1750 50  0001 C CNN
+	1    2800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:7432 U?
+U 2 1 62292DA1
+P 5750 1950
+F 0 "U?" H 5750 2366 50  0000 C CNN
+F 1 "7432" H 5750 2275 50  0000 C CNN
+F 2 "" H 5750 1950 50  0001 C CNN
+F 3 "" H 5750 1950 50  0001 C CNN
+	2    5750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:7432 U?
+U 3 1 622936D1
+P 6550 3350
+F 0 "U?" H 6550 3766 50  0000 C CNN
+F 1 "7432" H 6550 3675 50  0000 C CNN
+F 2 "" H 6550 3350 50  0001 C CNN
+F 3 "" H 6550 3350 50  0001 C CNN
+	3    6550 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx_IEEE:7432 U?
+U 4 1 6229404F
+P 4350 1700
+F 0 "U?" V 4304 1978 50  0000 L CNN
+F 1 "7432" V 4395 1978 50  0000 L CNN
+F 2 "" H 4350 1700 50  0001 C CNN
+F 3 "" H 4350 1700 50  0001 C CNN
+	4    4350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:7430 U?
+U 1 1 62295018
+P 3800 4650
+F 0 "U?" H 3800 5266 50  0000 C CNN
+F 1 "7430" H 3800 5175 50  0000 C CNN
+F 2 "" H 3800 4650 50  0001 C CNN
+F 3 "" H 3800 4650 50  0001 C CNN
+	1    3800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC374 U?
+U 1 1 6229634E
+P 6700 5200
+F 0 "U?" H 6700 6181 50  0000 C CNN
+F 1 "74HC374" H 6700 6090 50  0000 C CNN
+F 2 "" H 6700 5200 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd74hct374.pdf" H 6700 5200 50  0001 C CNN
+	1    6700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 1 1 622C1037
+P 2250 3900
+F 0 "U?" H 2250 4217 50  0000 C CNN
+F 1 "74HC04" H 2250 4126 50  0000 C CNN
+F 2 "" H 2250 3900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2250 3900 50  0001 C CNN
+	1    2250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 2 1 622C299E
+P 2250 4200
+F 0 "U?" H 2250 4517 50  0000 C CNN
+F 1 "74HC04" H 2250 4426 50  0000 C CNN
+F 2 "" H 2250 4200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2250 4200 50  0001 C CNN
+	2    2250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 3 1 622C3AD6
+P 2250 4500
+F 0 "U?" H 2250 4817 50  0000 C CNN
+F 1 "74HC04" H 2250 4726 50  0000 C CNN
+F 2 "" H 2250 4500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2250 4500 50  0001 C CNN
+	3    2250 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 4 1 622C77E9
+P 2250 4800
+F 0 "U?" H 2250 5117 50  0000 C CNN
+F 1 "74HC04" H 2250 5026 50  0000 C CNN
+F 2 "" H 2250 4800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2250 4800 50  0001 C CNN
+	4    2250 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 5 1 622C84DA
+P 2250 5100
+F 0 "U?" H 2250 5417 50  0000 C CNN
+F 1 "74HC04" H 2250 5326 50  0000 C CNN
+F 2 "" H 2250 5100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2250 5100 50  0001 C CNN
+	5    2250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 6 1 622C9068
+P 2250 5400
+F 0 "U?" H 2250 5717 50  0000 C CNN
+F 1 "74HC04" H 2250 5626 50  0000 C CNN
+F 2 "" H 2250 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2250 5400 50  0001 C CNN
+	6    2250 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 7 1 622CD773
+P 2250 6350
+F 0 "U?" V 1883 6350 50  0000 C CNN
+F 1 "74HC04" V 1974 6350 50  0000 C CNN
+F 2 "" H 2250 6350 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2250 6350 50  0001 C CNN
+	7    2250 6350
+	0    1    1    0   
+$EndComp
+Text GLabel 750  4900 0    50   Input ~ 0
+A0
+Text GLabel 750  4750 0    50   Input ~ 0
+A1
+Text GLabel 750  4600 0    50   Input ~ 0
+A2
+Text GLabel 750  4450 0    50   Input ~ 0
+A3
+Text GLabel 750  4300 0    50   Input ~ 0
+A4
+Text GLabel 750  3150 0    50   Input ~ 0
+A5
+Text GLabel 750  3000 0    50   Input ~ 0
+A6
+Text GLabel 750  4150 0    50   Input ~ 0
+A7
+Text GLabel 750  1650 0    50   Input ~ 0
+A8
+Text GLabel 750  1850 0    50   Input ~ 0
+A9
+Text GLabel 750  1350 0    50   Input ~ 0
+AEN
+Text GLabel 750  1200 0    50   Input ~ 0
+IOW
+Wire Wire Line
+	750  3000 3250 3000
+Wire Wire Line
+	750  3150 3150 3150
+Wire Wire Line
+	4950 5600 6200 5600
+Text GLabel 5450 5400 0    50   Input ~ 0
+D0
+Text GLabel 5450 5300 0    50   Input ~ 0
+D1
+Text GLabel 5450 5200 0    50   Input ~ 0
+D2
+Text GLabel 5450 5100 0    50   Input ~ 0
+D3
+Text GLabel 5450 5000 0    50   Input ~ 0
+D4
+Text GLabel 5450 4900 0    50   Input ~ 0
+D5
+Text GLabel 5450 4800 0    50   Input ~ 0
+D6
+Text GLabel 5450 4700 0    50   Input ~ 0
+D7
+Wire Wire Line
+	5450 4700 6200 4700
+Wire Wire Line
+	5450 4800 6200 4800
+Wire Wire Line
+	5450 4900 6200 4900
+Wire Wire Line
+	5450 5000 6200 5000
+Wire Wire Line
+	5450 5100 6200 5100
+Wire Wire Line
+	5450 5200 6200 5200
+Wire Wire Line
+	5450 5300 6200 5300
+Wire Wire Line
+	5450 5400 6200 5400
+$Comp
+L power:+5V #PWR?
+U 1 1 6230A80C
+P 2800 6350
+F 0 "#PWR?" H 2800 6200 50  0001 C CNN
+F 1 "+5V" H 2815 6523 50  0000 C CNN
+F 2 "" H 2800 6350 50  0001 C CNN
+F 3 "" H 2800 6350 50  0001 C CNN
+	1    2800 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6230B312
+P 1750 6450
+F 0 "#PWR?" H 1750 6200 50  0001 C CNN
+F 1 "GND" H 1755 6277 50  0000 C CNN
+F 2 "" H 1750 6450 50  0001 C CNN
+F 3 "" H 1750 6450 50  0001 C CNN
+	1    1750 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ec1834-post-lib:2732 U?
+U 1 1 62307A1B
+P 9150 2300
+F 0 "U?" H 9150 3481 50  0000 C CNN
+F 1 "2732" H 9150 3390 50  0000 C CNN
+F 2 "Package_DIP:DIP-24_W15.24mm" H 9150 1850 50  0001 C CNN
+F 3 "https://downloads.reactivemicro.com/Electronics/ROM/2732%20EPROM.pdf" H 9150 2300 50  0001 C CNN
+	1    9150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ec1834-post-lib:2732 U?
+U 1 1 6230858C
+P 9150 4850
+F 0 "U?" H 9150 6031 50  0000 C CNN
+F 1 "2732" H 9150 5940 50  0000 C CNN
+F 2 "Package_DIP:DIP-24_W15.24mm" H 9150 4400 50  0001 C CNN
+F 3 "https://downloads.reactivemicro.com/Electronics/ROM/2732%20EPROM.pdf" H 9150 4850 50  0001 C CNN
+	1    9150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  1850 2250 1850
+Wire Wire Line
+	750  1650 2250 1650
+Wire Wire Line
+	750  1350 5100 1350
+Wire Wire Line
+	5100 1350 5100 2050
+Wire Wire Line
+	5100 2050 5200 2050
+Wire Wire Line
+	3350 1750 3550 1750
+Wire Wire Line
+	3550 1750 3550 1800
+Wire Wire Line
+	3550 1800 3800 1800
+Wire Wire Line
+	4300 4650 4300 2450
+Wire Wire Line
+	4300 2450 3700 2450
+Wire Wire Line
+	3700 2450 3700 1600
+Wire Wire Line
+	3700 1600 3800 1600
+Wire Wire Line
+	4900 1700 5050 1700
+Wire Wire Line
+	5050 1700 5050 1850
+Wire Wire Line
+	5050 1850 5200 1850
+Wire Wire Line
+	6300 1950 6450 1950
+Wire Wire Line
+	6450 1950 6450 2800
+Wire Wire Line
+	750  1200 6650 1200
+Wire Wire Line
+	6650 1200 6650 2800
+Wire Wire Line
+	6550 3900 4950 3900
+Wire Wire Line
+	4950 3900 4950 5600
+Wire Wire Line
+	750  4150 1200 4150
+Wire Wire Line
+	1200 4150 1200 4500
+Wire Wire Line
+	1200 4500 1950 4500
+Wire Wire Line
+	750  4300 1600 4300
+Wire Wire Line
+	1600 4300 1600 4200
+Wire Wire Line
+	1600 4200 1950 4200
+Wire Wire Line
+	750  4450 1550 4450
+Wire Wire Line
+	1550 4450 1550 3900
+Wire Wire Line
+	1550 3900 1950 3900
+Wire Wire Line
+	750  4600 1600 4600
+Wire Wire Line
+	1600 4600 1600 4800
+Wire Wire Line
+	1600 4800 1950 4800
+Wire Wire Line
+	750  4750 1500 4750
+Wire Wire Line
+	1500 4750 1500 5100
+Wire Wire Line
+	1500 5100 1950 5100
+Wire Wire Line
+	750  4900 1400 4900
+Wire Wire Line
+	1400 4900 1400 5400
+Wire Wire Line
+	1400 5400 1950 5400
+Wire Wire Line
+	2550 4500 2750 4500
+Wire Wire Line
+	2550 4200 2900 4200
+Wire Wire Line
+	2900 4200 2900 4700
+Wire Wire Line
+	2900 4700 3300 4700
+Wire Wire Line
+	2550 3900 3000 3900
+Wire Wire Line
+	3000 3900 3000 4600
+Wire Wire Line
+	3000 4600 3300 4600
+Wire Wire Line
+	2750 4500 2750 4800
+Wire Wire Line
+	2750 4800 3300 4800
+Wire Wire Line
+	2550 4800 2650 4800
+Wire Wire Line
+	2650 4800 2650 4600
+Wire Wire Line
+	2650 4600 2800 4600
+Wire Wire Line
+	2800 4600 2800 4500
+Wire Wire Line
+	2800 4500 3300 4500
+Wire Wire Line
+	2550 5100 3050 5100
+Wire Wire Line
+	3050 5100 3050 4400
+Wire Wire Line
+	3050 4400 3300 4400
+Wire Wire Line
+	2550 5400 3100 5400
+Wire Wire Line
+	3100 5400 3100 4300
+Wire Wire Line
+	3100 4300 3300 4300
+Wire Wire Line
+	3300 5000 3150 5000
+Wire Wire Line
+	3150 5000 3150 3150
+Wire Wire Line
+	3300 4900 3250 4900
+Wire Wire Line
+	3250 3000 3250 4900
+$Comp
+L power:GND #PWR?
+U 1 1 623463F6
+P 6700 6100
+F 0 "#PWR?" H 6700 5850 50  0001 C CNN
+F 1 "GND" H 6705 5927 50  0000 C CNN
+F 2 "" H 6700 6100 50  0001 C CNN
+F 3 "" H 6700 6100 50  0001 C CNN
+	1    6700 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62348404
+P 9150 6050
+F 0 "#PWR?" H 9150 5800 50  0001 C CNN
+F 1 "GND" H 9155 5877 50  0000 C CNN
+F 2 "" H 9150 6050 50  0001 C CNN
+F 3 "" H 9150 6050 50  0001 C CNN
+	1    9150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6234A3A5
+P 9150 3500
+F 0 "#PWR?" H 9150 3250 50  0001 C CNN
+F 1 "GND" H 9155 3327 50  0000 C CNN
+F 2 "" H 9150 3500 50  0001 C CNN
+F 3 "" H 9150 3500 50  0001 C CNN
+	1    9150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 623515C2
+P 6700 4200
+F 0 "#PWR?" H 6700 4050 50  0001 C CNN
+F 1 "+5V" H 6715 4373 50  0000 C CNN
+F 2 "" H 6700 4200 50  0001 C CNN
+F 3 "" H 6700 4200 50  0001 C CNN
+	1    6700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 62353886
+P 8900 3800
+F 0 "#PWR?" H 8900 3650 50  0001 C CNN
+F 1 "+5V" H 8915 3973 50  0000 C CNN
+F 2 "" H 8900 3800 50  0001 C CNN
+F 3 "" H 8900 3800 50  0001 C CNN
+	1    8900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 62355A6A
+P 8900 1200
+F 0 "#PWR?" H 8900 1050 50  0001 C CNN
+F 1 "+5V" H 8915 1373 50  0000 C CNN
+F 2 "" H 8900 1200 50  0001 C CNN
+F 3 "" H 8900 1200 50  0001 C CNN
+	1    8900 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62357C43
+P 6200 5850
+F 0 "#PWR?" H 6200 5600 50  0001 C CNN
+F 1 "GND" H 6205 5677 50  0000 C CNN
+F 2 "" H 6200 5850 50  0001 C CNN
+F 3 "" H 6200 5850 50  0001 C CNN
+	1    6200 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 6350 1750 6450
+Wire Wire Line
+	2750 6350 2800 6350
+Wire Wire Line
+	6200 5850 6200 5700
+Wire Wire Line
+	6700 6000 6700 6100
+Wire Wire Line
+	6700 4200 6700 4400
+Wire Wire Line
+	8900 3800 9150 3800
+Wire Wire Line
+	9150 3800 9150 3850
+Wire Wire Line
+	9150 3500 9150 3400
+Wire Wire Line
+	9150 5950 9150 6050
+Wire Wire Line
+	9150 1300 8900 1300
+Wire Wire Line
+	8900 1300 8900 1200
+$EndSCHEMATC
