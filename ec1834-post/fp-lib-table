@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ec1834-post)(type KiCad)(uri ${KIPRJMOD}/ec1834-post.pretty)(options "")(descr ""))
+)
