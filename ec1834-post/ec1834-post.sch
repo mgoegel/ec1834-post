@@ -924,4 +924,122 @@ Wire Wire Line
 	4900 4200 4900 4250
 Wire Wire Line
 	4900 5050 4900 5150
+$Comp
+L Device:C C1
+U 1 1 6249EDEF
+P 3500 6850
+F 0 "C1" H 3615 6896 50  0000 L CNN
+F 1 "100n" H 3615 6805 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 3538 6700 50  0001 C CNN
+F 3 "~" H 3500 6850 50  0001 C CNN
+	1    3500 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0117
+U 1 1 624A05C0
+P 3500 6700
+F 0 "#PWR0117" H 3500 6550 50  0001 C CNN
+F 1 "+5V" H 3515 6873 50  0000 C CNN
+F 2 "" H 3500 6700 50  0001 C CNN
+F 3 "" H 3500 6700 50  0001 C CNN
+	1    3500 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 624A0F3C
+P 3500 7000
+F 0 "#PWR0118" H 3500 6750 50  0001 C CNN
+F 1 "GND" H 3505 6827 50  0000 C CNN
+F 2 "" H 3500 7000 50  0001 C CNN
+F 3 "" H 3500 7000 50  0001 C CNN
+	1    3500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 624B6BC5
+P 3950 6850
+F 0 "C2" H 4065 6896 50  0000 L CNN
+F 1 "100n" H 4065 6805 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 3988 6700 50  0001 C CNN
+F 3 "~" H 3950 6850 50  0001 C CNN
+	1    3950 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 624B6F52
+P 4400 6850
+F 0 "C3" H 4515 6896 50  0000 L CNN
+F 1 "100n" H 4515 6805 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 4438 6700 50  0001 C CNN
+F 3 "~" H 4400 6850 50  0001 C CNN
+	1    4400 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 624B747C
+P 4850 6850
+F 0 "C4" H 4965 6896 50  0000 L CNN
+F 1 "100n" H 4965 6805 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 4888 6700 50  0001 C CNN
+F 3 "~" H 4850 6850 50  0001 C CNN
+	1    4850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 624B78D5
+P 5300 6850
+F 0 "C5" H 5415 6896 50  0000 L CNN
+F 1 "100n" H 5415 6805 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 5338 6700 50  0001 C CNN
+F 3 "~" H 5300 6850 50  0001 C CNN
+	1    5300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 624B7CA9
+P 5750 6850
+F 0 "C6" H 5865 6896 50  0000 L CNN
+F 1 "100n" H 5865 6805 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 5788 6700 50  0001 C CNN
+F 3 "~" H 5750 6850 50  0001 C CNN
+	1    5750 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6700 3950 6700
+Connection ~ 3500 6700
+Wire Wire Line
+	3950 6700 4400 6700
+Connection ~ 3950 6700
+Wire Wire Line
+	4400 6700 4850 6700
+Connection ~ 4400 6700
+Wire Wire Line
+	4850 6700 5300 6700
+Connection ~ 4850 6700
+Wire Wire Line
+	5300 6700 5750 6700
+Connection ~ 5300 6700
+Wire Wire Line
+	3500 7000 3950 7000
+Connection ~ 3500 7000
+Wire Wire Line
+	3950 7000 4400 7000
+Connection ~ 3950 7000
+Wire Wire Line
+	4400 7000 4850 7000
+Connection ~ 4400 7000
+Wire Wire Line
+	4850 7000 5300 7000
+Connection ~ 4850 7000
+Wire Wire Line
+	5300 7000 5750 7000
+Connection ~ 5300 7000
 $EndSCHEMATC
