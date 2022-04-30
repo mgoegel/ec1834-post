@@ -1,4 +1,4 @@
-19406280001246901
+19407931171236899
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -21776,6 +21776,13 @@ PCIe
 0
 164
 164
+Connector_PCBEdge
+ISA-8BIT-XT-IDE
+Connecteur Bus PC 8 bits
+CONN PC ISA
+0
+62
+62
 Connector_PCBEdge
 Samtec_MECF-05-0_-L-DV_2x05_P1.27mm_Polarized_Edge
 Highspeed card edge connector for PCB's with 05 contacts (polarized)
