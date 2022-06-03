@@ -1,4 +1,4 @@
-#### Robotron EC1834 POST 60h ISA card
+# Robotron EC1834 POST 60h ISA card
 
 In this project I would like to introduce you to an ISA Port 60h card for the EC1834.
 
@@ -6,14 +6,14 @@ This project was inspired by:
 https://bbright.tripod.com/information/postcard.htm
 and by the ELV 1995-04 ISA-BIOS-POST Karte
 
-### Description
+## Description
 
-## Decoding
+### Decoding
 The board uses 2 EPROMS for decoding the bus byte to the two 7 segment LED displays.
 There may be better ways to display it (BCD27seg hex encoder or PAL ICs). Both techniques are obsolete (as the used 2732/27C32 EPROMs are).
 But to keep it as simple as possible, the EPROMs are the solution.
 
-## Configuration
+### Configuration
 To support 74LS series ICs (the 74LS688), I used only pull up mechanisms for the configuration.
 So the address lines NOT wanted, have to be switched *ON* at the DIP switch (which is - by the way - prepared to be replaced by a 2x10 PIN header),
 when the address is to be defined.
@@ -28,7 +28,7 @@ The address range is configurable from 0x000-0x3ff
 The display can be configured, to display read requests, instead of write requests. The Jumper J3 needs to be set to "Read".
 Default should be "Write".
 
-## Connectors
+### Connectors
 The board has 2 feature connectors.
 The power connector J4 shall to be used later for a power monitoring. It provides access to all voltage (+5V, -5V, +12V, -12V, GND) lines on the ISA BUS.
 
@@ -37,7 +37,7 @@ The ongoing transaction can be monitored on the /IOR or /IOW line, which is acti
 
 J0 can be installed as a DIN41612 64pin (a+c) connector, as no access to the 16bit data bus is needed.
 
-### BOM
+## BOM
 
 | Ref | Value               |
 |-----|---------------------|
