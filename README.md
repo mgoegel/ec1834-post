@@ -20,8 +20,8 @@ when the address is to be defined.
 For jumpers - these have to be set then.
 
 Example:
-Adress 0x80 - Lines A0-A6,A8-A9 need to be set to ON; A7 to OFF
-Adress 0x60 - Lines A0-A4,A7-A9 must be ON; A5,A6 have to be OFF
+ Adress 0x80 - Lines A0-A6,A8-A9 need to be set to ON; A7 to OFF
+ Adress 0x60 - Lines A0-A4,A7-A9 must be ON; A5,A6 have to be OFF
 
 The address range is configurable from 0x000-0x3ff
 
