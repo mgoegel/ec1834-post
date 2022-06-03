@@ -1,0 +1,54 @@
+EPROM Data high nibbles
+
+Data need to be inverted, the LED segment will only be illuminated on 0
+Adress input is reversed on A0-A3 (=A3-A0), therefore the order must be reversed to U5
+https://en.wikipedia.org/wiki/Bit-reversal_permutation
+Display needs to be rotated 180°, because U6 is placed right, when viewed from PCB top.
+User is looking from other side, so only that makes sense.
+
+00 40
+08 30
+04 0C
+0c 3C
+02 18
+0a 01
+06 00
+0e 47
+01 02
+09 20
+05 12
+0d 0B
+03 06
+0b 24
+07 4F
+0f 31
+
+
+  top        bottom
+    a           d    
+  -----       -----  
+ |     |     |     | 
+f|  g  |b   c|  g  |e
+ |-----|     |-----| 
+e|     |c   b|     |f
+ |     |     |     | 
+  -----       -----  
+    d           a    
+
+Offset  7seg    :: inv       hex
+00      abcdef  :: 100 0000  40
+0e      abcd  g :: 011 0000  30
+0d      ab  efg :: 000 1100  0C
+0c      ab    g :: 011 1100  3C
+0b      abc  fg :: 001 1000  18
+0a       bcdefg :: 000 0001  01
+08      abcdefg :: 000 0000  00
+07         def  :: 100 0111  47
+09      a cdefg :: 000 0010  02
+06      abcde g :: 010 0000  20
+05      a cd fg :: 001 0010  12
+04        c efg :: 000 1011  0B
+03      a  defg :: 000 0110  06
+02      ab de g :: 010 0100  24
+01          ef  :: 100 1111  4F
+0f       bcd  g :: 011 0001  31

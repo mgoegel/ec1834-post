@@ -1,0 +1,52 @@
+EPROM Data
+
+Data need to be inverted, the LED segment will only be illuminated on 0
+Display needs to be rotated 180°, because U5 is placed left, when viewed from PCB top.
+User is looking from other side, so only that makes sense.
+
+00 40
+01 4F
+02 24
+03 06
+04 0B
+05 12
+06 20
+07 47
+08 00
+09 02
+0a 01
+0b 18
+0c 3C
+0d 0C
+0e 30
+0f 31
+
+
+  top        bottom
+    a           d    
+  -----       -----  
+ |     |     |     | 
+f|  g  |b   c|  g  |e
+ |-----|     |-----| 
+e|     |c   b|     |f
+ |     |     |     | 
+  -----       -----  
+    d           a    
+
+Offset  7seg    :: inv       hex
+00      abcdef  :: 100 0000  40
+01          ef  :: 100 1111  4F
+02      ab de g :: 010 0100  24
+03      a  defg :: 000 0110  06
+04        c efg :: 000 1011  0B
+05      a cd fg :: 001 0010  12
+06      abcde g :: 010 0000  20
+07         def  :: 100 0111  47
+08      abcdefg :: 000 0000  00
+09      a cdefg :: 000 0010  02
+0a       bcdefg :: 000 0001  01
+0b      abc  fg :: 001 1000  18
+0c      ab    g :: 011 1100  3C
+0d      ab  efg :: 000 1100  0C
+0e      abcd  g :: 011 0000  30
+0f       bcd  g :: 011 0001  31
