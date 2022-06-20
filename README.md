@@ -1,4 +1,4 @@
-# Robotron EC1834 POST 60h ISA card
+# Robotron EC1834 POST 60h (and not only port 60) ISA card
 
 In this project I would like to introduce you to an ISA Port 60h card for the EC1834.
 
@@ -10,18 +10,20 @@ and by the ELV 1995-04 ISA-BIOS-POST Karte
 
 ### Decoding
 The board uses 2 EPROMS for decoding the bus byte to the two 7 segment LED displays.
-There may be better ways to display it (BCD27seg hex encoder or PAL ICs). Both techniques are obsolete (as the used 2732/27C32 EPROMs are).
+There may be better ways to do it (BCD to 7seg hex encoder or PAL ICs). Both techniques are obsolete and not/hardly available (as the used 2732/27C32 EPROMs are).
 But to keep it as simple as possible, the EPROMs are the solution.
 
 ### Configuration
 To support 74LS series ICs (the 74LS688), I used only pull up mechanisms for the configuration.
-So the address lines NOT wanted, have to be switched *ON* at the DIP switch (which is - by the way - prepared to be replaced by a 2x10 PIN header),
+So the address lines NOT wanted, have to be switched **ON** at the DIP switch 
+(which is - by the way - prepared to be replaced by a 2x10 PIN header),
 when the address is to be defined.
 For jumpers - these have to be set then.
 
 Example:
- Adress 0x80 - Lines A0-A6,A8-A9 need to be set to ON; A7 to OFF
- Adress 0x60 - Lines A0-A4,A7-A9 must be ON; A5,A6 have to be OFF
+
+* Adress 0x80 - Lines A0-A6,A8-A9 need to be set to **ON**; A7 to **OFF**
+* Adress 0x60 - Lines A0-A4,A7-A9 must be **ON**; A5,A6 have to be **OFF**
 
 The address range is configurable from 0x000-0x3ff
 
@@ -49,7 +51,7 @@ J0 can be installed as a DIN41612 64pin (a+c) connector, as no access to the 16b
 | C6  | 100n                |
 | C7  | 100uF               |
 | C8  | 100n                |
-| J0  | DIN 41617C 64(a+c) or 96 female 90° THT connector  |
+| J0  | DIN 41612C 64(a+c) or 96 pin (abc) <br />female 90° THT connector  |
 | J2  | Conn_02x07_Odd_Even |
 | J3  | Conn_01x03          |
 | J4  | Conn_02x06_Odd_Even |
@@ -62,10 +64,10 @@ J0 can be installed as a DIN41612 64pin (a+c) connector, as no access to the 16b
 | R5  | 1k                  |
 | R6  | 220                 |
 | RN1 | SIL9-8 10K          |
-| RN2 | 330                 |
-| RN3 | 330                 |
-| RN4 | 330                 |
-| RN5 | 330                 |
+| RN2 | SIL5-4 330 or 4x330R |
+| RN3 | SIL5-4 330 or 4x330R |
+| RN4 | SIL5-4 330 or 4x330R |
+| RN5 | SIL5-4 330 or 4x330R |
 | SW1 | SW_DIP_x10          |
 | U1  | 74LS688             |
 | U2  | 74LS86              |
