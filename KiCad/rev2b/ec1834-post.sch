@@ -1894,7 +1894,7 @@ L Device:R_Pack04_SIP RN2
 U 1 1 629900BC
 P 13000 6050
 F 0 "RN2" V 12958 6254 50  0000 L CNN
-F 1 "330" V 13049 6254 50  0000 L CNN
+F 1 "1500" V 13049 6254 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP8" V 13675 6050 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 13000 6050 50  0001 C CNN
 	1    13000 6050
@@ -1905,7 +1905,7 @@ L Device:R_Pack04_SIP RN3
 U 1 1 62990E18
 P 13000 7200
 F 0 "RN3" V 12958 7404 50  0000 L CNN
-F 1 "330" V 13049 7404 50  0000 L CNN
+F 1 "1500" V 13049 7404 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP8" V 13675 7200 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 13000 7200 50  0001 C CNN
 	1    13000 7200
@@ -1916,7 +1916,7 @@ L Device:R_Pack04_SIP RN4
 U 1 1 629913CC
 P 13000 3450
 F 0 "RN4" V 12958 3654 50  0000 L CNN
-F 1 "330" V 13049 3654 50  0000 L CNN
+F 1 "1500" V 13049 3654 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP8" V 13675 3450 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 13000 3450 50  0001 C CNN
 	1    13000 3450
@@ -1927,7 +1927,7 @@ L Device:R_Pack04_SIP RN5
 U 1 1 6299259E
 P 13000 4600
 F 0 "RN5" V 12958 4804 50  0000 L CNN
-F 1 "330" V 13049 4804 50  0000 L CNN
+F 1 "1500" V 13049 4804 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP8" V 13675 4600 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 13000 4600 50  0001 C CNN
 	1    13000 4600
@@ -2109,4 +2109,8 @@ Wire Wire Line
 Connection ~ 14150 3750
 Wire Wire Line
 	14150 3750 14150 3850
+Text Notes 12600 1900 0    50   ~ 0
+Das Display, welches ich nutze, ist ein TDSR3150.\nEs wird verkehrt herum eingbaut. Der Punkt ist auf Seite des DIN Slots.\nDie Ansicht wird im EPROM um 180° gedreht, so dass der Nutzer es ablesen kann.
+Text Notes 7550 2350 0    50   ~ 0
+U1 verbindet die Adressfreigabe, AEN sowie IOW/IOR\nNur wenn das Signal Low Pegel hat, wird der Latch aktiviert und übernimmt die Daten vom Bus.
 $EndSCHEMATC

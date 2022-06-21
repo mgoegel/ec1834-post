@@ -1,6 +1,12 @@
 # Robotron EC1834 POST 60h (and not only port 60) ISA card
 
+Anleitung in [Deutsch](README-DE.md)
+
 In this project I would like to introduce you to an ISA Port 60h card for the EC1834.
+
+![POST Platine](photos/POST_by_rowikla.jpg)
+
+![POST Schema](photos/post-schematics.png)
 
 This project was inspired by:
 https://bbright.tripod.com/information/postcard.htm
@@ -64,10 +70,10 @@ J0 can be installed as a DIN41612 64pin (a+c) connector, as no access to the 16b
 | R5  | 1k                  |
 | R6  | 220                 |
 | RN1 | SIL9-8 10K          |
-| RN2 | SIL5-4 330 or 4x330R |
-| RN3 | SIL5-4 330 or 4x330R |
-| RN4 | SIL5-4 330 or 4x330R |
-| RN5 | SIL5-4 330 or 4x330R |
+| RN2 | SIL5-4 1,5K or 4x1,5K R |
+| RN3 | SIL5-4 1,5K or 4x1,5K R |
+| RN4 | SIL5-4 1,5K or 4x1,5K R |
+| RN5 | SIL5-4 1,5K or 4x1,5K R |
 | SW1 | SW_DIP_x10          |
 | U1  | 74LS688             |
 | U2  | 74LS86              |
