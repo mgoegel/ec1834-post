@@ -4,9 +4,9 @@ Anleitung in [Deutsch](README-DE.md)
 
 In this project I would like to introduce you to an ISA Port 60h card for the EC1834.
 
-![POST Platine](photos/POST_by_rowikla.jpg)
+![POST Platine](photo/POST_by_rowikla.jpg)
 
-![POST Schema](photos/post-schematics.png)
+![POST Schema](photo/post-schematics.png)
 
 This project was inspired by:
 https://bbright.tripod.com/information/postcard.htm

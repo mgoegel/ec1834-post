@@ -2,9 +2,9 @@
 
 In diesem projekt möchte ich euch meine ISA Port 60h Karte für den EC1834 vorstellen.
 
-![POST Platine](photos/POST_by_rowikla.jpg)
+![POST Platine](photo/POST_by_rowikla.jpg)
 
-![POST Schema](photos/post-schematics.png)
+![POST Schema](photo/post-schematics.png)
 
 Das Projekt wurde inspiriert von dieser Version:
 https://bbright.tripod.com/information/postcard.htm
