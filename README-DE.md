@@ -40,7 +40,7 @@ Dazu muss Jumper J3 von der Standard-Einstellung "Write" auf "Read" gesetzt sein
 Die Platine hat 2 besondere Steckverbinder.
 Der Spannungsverbinder J4 soll Optional ein Spannungsmonitoring bieten. Er bietet einfachen Zugriff auf alle Bus Spannungen (+/- 5V, +/-12V, GND) des ISA Busses.
 
-Verbinder J2 bietet einen einfachen Zugang für einen Logic Analyzer. Die Busa Daten werden für Schreib- und Lesezugriff angeboten.
+Verbinder J2 bietet einen einfachen Zugang für einen Logic Analyzer. Die Bus Daten werden für Schreib- und Lesezugriff angeboten.
 Zusätzlich sind die IOW/IOR Leitungen vorhanden, so dass man am Analyzer die entsprechende Aktion (Low Pegel) zuordnen kann.
 
 J0 kann als DIN41612 64pin (a+c) ausgeführt werden, da kein Zugriff auf den 16bit Datenbus nötig ist.
